@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.slideshow.SlideshowFragment"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#145400"
+    >
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="versions of different icons for the same application"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_weight="1"
+        android:background="#145400"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@id/textView18"
+            android:layout_width="210dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="6sp"
+            android:layout_marginRight="6sp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="Assassins Creed Icon Version"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="99dp"
+                android:layout_height="103dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="@drawable/ac1"
+                    />
+
+                <TextView
+                    android:id="@id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text="Icono v1 " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="103dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@drawable/ac2"
+                    />
+
+                <TextView
+                    android:id="@id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text="Icono v2 " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="@drawable/ac3"
+                    />
+
+                <TextView
+                    android:id="@id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Icono v3 " />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_weight="1"
+        android:background="#145400"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@id/textView18"
+            android:layout_width="215dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="6sp"
+            android:layout_marginRight="6sp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="Amazon Icon Version"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="99dp"
+                android:layout_height="103dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="@drawable/amazon1"
+                    />
+
+                <TextView
+                    android:id="@id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text="Icono v1 " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="103dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@drawable/amazon2"
+                    />
+
+                <TextView
+                    android:id="@id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text="Icono v2 " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="@drawable/amazon3"
+                    />
+
+                <TextView
+                    android:id="@id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="imagen " />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_weight="1"
+        android:background="#145400"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="215dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="6sp"
+            android:layout_marginRight="6sp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="Disney Icon Version"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="99dp"
+                android:layout_height="103dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="@drawable/d1"
+                    />
+
+                <TextView
+                    android:id="@id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text="icono v1 " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="103dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@drawable/d2"
+                    />
+
+                <TextView
+                    android:id="@id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text="icono v2 " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="@drawable/d3"
+                    />
+
+                <TextView
+                    android:id="@id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="icono v3 " />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_weight="1"
+        android:background="#145400"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@id/textView18"
+            android:layout_width="215dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="6sp"
+            android:layout_marginRight="6sp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="Pokemon GO Icon Version"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="99dp"
+                android:layout_height="103dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="@drawable/p1"
+                    />
+
+                <TextView
+                    android:id="@id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text="icono v1 " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="103dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@drawable/p2"
+                    android:text="" />
+
+                <TextView
+                    android:id="@id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text="icono v2 " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="@drawable/p3"
+                    android:text="" />
+
+                <TextView
+                    android:id="@id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="icono v3 " />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_weight="1"
+        android:background="#145400"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@id/textView18"
+            android:layout_width="215dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="6sp"
+            android:layout_marginRight="6sp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="Pubg Mobile Icon Version"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="99dp"
+                android:layout_height="103dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="@drawable/pubg1"
+                    android:text="" />
+
+                <TextView
+                    android:id="@id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text="icono v1 " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="103dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@drawable/pubg2"
+                    android:text="" />
+
+                <TextView
+                    android:id="@id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text="icono v2 " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="@drawable/pubg3"
+                    android:text="" />
+
+                <TextView
+                    android:id="@id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="icono v3 " />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_marginTop="10sp"
+        android:layout_weight="1"
+        android:background="#145400"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@id/textView18"
+            android:layout_width="215dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="6sp"
+            android:layout_marginRight="6sp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="QR Generator Icon Version"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="99dp"
+                android:layout_height="103dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="@drawable/qr1"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text="icono v1 " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="103dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@drawable/qr2"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text="icono v2 " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="@drawable/qr3"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="icono v3 " />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
